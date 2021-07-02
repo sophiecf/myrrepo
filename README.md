@@ -1,2 +1,3 @@
 # myrrepo
-testing R studio setup
+# testing R studio setup
+# smalll amount of text
