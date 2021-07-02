@@ -7,3 +7,8 @@ plot(x,y)
 abline(fit, col=2)
 
 getwd()
+
+co2 = read.csv("co2_mm_mlo.csv")
+plot(co2$decdate, co2$interpolated, type='1', main="Mauna Loa CO2",
+     xlab="time", ylab="ppm")
+lines(co2$decdate, co2$trend, col=2, lwd=2)
